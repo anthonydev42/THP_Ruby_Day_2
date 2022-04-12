@@ -1,19 +1,18 @@
+arr = Array[]
+i = 0;
+nbr = 1;
 
-
-arr = Array[0..49]
-i = 1;
-
-while(i<10)
-    arr[i] = "jean.dupont0#{i}.@email.fr"
+while(i<9)
+    arr[i] = "jean.dupont0#{nbr}.@email.fr"
     puts arr[i]
-    i = i + 1;
+    i += 1
+    nbr += 1
 end
 
-while(i<51)
-    arr[i] = "jean.dupont#{i}.@email.fr"
+while(i<50)
+    arr[i] = "jean.dupont#{nbr}.@email.fr"
     puts arr[i]
-    i = i + 1;
+    i += 1
+    nbr += 1
+
 end
-
-
-
