@@ -4,5 +4,5 @@ number = gets.chomp.to_i
 cnt=-1;
 while cnt!=number
   print number; 
-  number = number - 1;
+  number -= 1;
 end   
